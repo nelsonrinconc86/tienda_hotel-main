@@ -22,6 +22,6 @@ app.get("/contacto", (req , res)=>{
     res.redirect("https://web.whatsapp.com/");
 })
 //activamos escucha del servidor
-app.listen(port , ()=>{
+app.listen(port ,'0.0.0.0', ()=>{
     console.log("servidor activo");
 })
